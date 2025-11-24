@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV – Sydney Frederiksen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">Sydney Frederiksen</a>
+        <span class="tagline">Curriculum Vitae</span>
+      </div>
+      <nav class="main-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="cv.html" class="active">CV</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container cv">
+      <h1>Curriculum Vitae</h1>
+      <p class="cv-contact">
+        Sydney Frederiksen · City, State ·
+        <a href="mailto:youremail@example.com">youremail@example.com</a>
+      </p>
+
+      <section class="cv-section">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <strong>M.S., Speech-Language Pathology</strong>, University Name, City, State (Expected 2027)
+          </li>
+          <li>
+            <strong>B.S., Major</strong>, University Name, City, State (Year)
+          </li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Clinical Experience</h2>
+        <ul>
+          <li>
+            <strong>Graduate Student Clinician</strong>, Clinic / Setting, City, State (Year–Year)<br />
+            Adult neurogenic caseload including aphasia, apraxia of speech, and cognitive-communication disorders.
+          </li>
+          <li>
+            <strong>Undergraduate Practicum / Volunteer</strong>, Site, City, State (Year–Year)<br />
+            Supported assessment and treatment of pediatric language and speech sound disorders under supervision.
+          </li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Research Experience</h2>
+        <ul>
+          <li>
+            <strong>Research Assistant</strong>, Lab Name, University (Year–Year)<br />
+            Project: Reading attitudes and performance in people with aphasia. Responsibilities included data collection,
+            transcription, scoring of standardized assessments, and preliminary statistical analysis.
+          </li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Publications</h2>
+        <ol>
+          <li>
+            Frederiksen, S., &amp; Collaborator, A. (2026). <em>Reading attitudes and performance in people with aphasia.</em>
+            Journal Name.
+          </li>
+          <li>
+            Frederiksen, S. (2025). <em>Parent-led early intervention to support babbling and early words.</em>
+            Journal Name.
+          </li>
+        </ol>
+      </section>
+
+      <section class="cv-section">
+        <h2>Conference Presentations & Posters</h2>
+        <ul>
+          <li>
+            Frederiksen, S. (2025, November). <em>Title of poster or talk.</em> Poster presented at Conference Name, City, State.
+          </li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Certifications & Training</h2>
+        <ul>
+          <li>CPR / Basic Life Support (Year–Year)</li>
+          <li>CITI Training – Human Subjects Research (Current)</li>
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Skills</h2>
+        <ul>
+          <li>Assessment tools: WAB, BDAE, TOWRE-2, CARA, standardized pediatric language tests</li>
+          <li>Software: Excel, SPSS/R (basic stats), CLAN/CHAT transcription</li>
+          <li>Clinical: Aphasia, reading and writing, parent coaching, early language intervention</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Sydney Frederiksen. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
